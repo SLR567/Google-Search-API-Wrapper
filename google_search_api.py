@@ -3,8 +3,8 @@ import requests
 from dotenv import load_dotenv
 from typing import List, Dict, Optional
 import logging
-
-load_dotenv()
+path = ''
+load_dotenv(path)
 
 class SearchResults:
     def __init__(self, results):
