@@ -73,7 +73,7 @@ Before using the Google Custom Search API, you need to create a Programmable Sea
    cx=your_cx_id_here
    ```
 4. The application will automatically load and use the API key and CX id when making API requests.
-5. Add your environment pyth to this line
+5. Add your environment pyth to this line in `google_search_api.py`
    ```
    path = ''
    load_dotenv(path)
